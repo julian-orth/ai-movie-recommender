@@ -45,7 +45,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          model: "mistralai/mistral-7b-instruct:free",
+          model: "mistralai/devstral-2512:free",
           messages: [{ role: "user", content: userPrompt }],
           max_tokens: 300,
           temperature: 0.7,
